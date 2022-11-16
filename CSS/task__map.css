@@ -1,0 +1,64 @@
+.gm-style .gm-style-iw-c {
+    height: 161px;
+    padding: 0;
+    box-shadow: 0px 15px 30px rgba(220, 221, 243, 0.25);
+}
+
+.gm-style .gm-style-iw-d {
+    overflow: hidden;
+}
+
+.gm-ui-hover-effect>span {
+    display: none !important;
+}
+
+.gm-style .gm-style-iw-tc, .gmnoprint, .gm-style-cc, button.gm-control-active.gm-fullscreen-control {
+    display: none;
+}
+
+.tasks__map {
+    max-width: 470px;
+    width: 100%;
+    height: 936px;
+}
+#map {
+    height: 100%;
+  }
+
+.infoWindow-container {
+    padding: 20px 79px 17px 19px;
+}
+
+.info__content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #1A1A1A;
+}
+
+.info__content h2 {
+    font-weight: 700;
+}
+
+.info__contacts {
+    padding-left: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #858585;
+}
+
+.contacts__item {
+    display: flex;
+    align-items: center;
+}
+
+i.phone, i.mail {
+    max-width: 13px;
+    max-height: 13px;
+    margin-right: 8px;
+}
