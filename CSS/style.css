@@ -1,0 +1,12 @@
+@import url(reset.css);
+@import url(task__form.css);
+@import url(task__map.css);
+
+.container {
+    display: flex;
+    margin: 138px auto;
+}
+
+.box-block {
+    display: block !important;
+}

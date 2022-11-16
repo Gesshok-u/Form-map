@@ -1,0 +1,201 @@
+.tasks__form {
+    margin-right: 40px;
+}
+
+.tasks__title h1{
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A1A1A;
+}
+
+.tasks__subtitle {
+    margin: 13px 0 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1A1A1A;
+}
+
+.tasks__form {
+    max-width: 630px;
+    width: 100%;
+}
+
+.tusks__item input{
+    background: #FFFFFF;
+    box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
+    border-radius: 8px;
+    padding: 0 0 0 19px;
+    width: 100%;
+    height: 100%;
+}
+
+.tusks__item:focus, input:focus{
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.46);
+}
+
+.tasks__request {
+    display: grid;
+    grid-template-columns: repeat(2, 299px);
+    grid-template-rows: repeat(4, 64px) 338px;
+    grid-template-areas: "name position"
+                         "institution email"
+                         "phone profession"
+                         "inquiry inquiry"
+                         "message message";
+    row-gap: 35px;
+    column-gap: 32px;
+    margin-bottom: 45px;
+}
+
+
+.input_name {
+    grid-area: name;
+}
+
+.input_position {
+    grid-area: position;
+}
+
+.select_institution {
+    grid-area: institution;
+    padding: 0;
+}
+
+.select_institution.tusks__item {
+    z-index: 1;
+}
+
+.dropdown {
+    box-shadow: 0px 16px 32px rgba(202, 203, 210, 0.25);
+    border-radius: 8px;
+    height: 100%;
+}
+
+button.dropdown__button {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 18px 0 0 19px;
+    z-index: 2;
+    cursor: pointer;
+    background: url('../img/Shape.png') no-repeat right top;
+    background-position-x: calc(100% - 24px);
+    background-position-y: calc(100% - 29px);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #414042;
+    opacity: 0.5;
+    margin-bottom: -5px;
+}
+
+
+button.dropdown__button-active {
+    background-color: #1A1A1A;
+}
+
+.dropdown__list {
+    display: none;
+    background: #FFFFFF;
+    position: relative;
+    z-index: 2;
+    padding: 0 19px 6px;
+    border-radius: 0 0 8px 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #424242;
+}
+
+.dropdown__list-item {
+    background: #FFFFFF;
+    margin-bottom: 13px;
+    cursor: pointer;
+    max-height: 28px;
+}
+
+.dropdown__list-item:hover {
+    background: #F2F2F2;
+    padding-left: 13px;
+}
+
+.input_email {
+    grid-area: email;
+}
+
+.input_phone {
+    grid-area: phone;
+}
+
+.input_profession {
+    grid-area: profession;
+    padding: 0;
+}
+
+.input_inquiry {
+    grid-area: inquiry;
+    padding: 0;
+}
+
+.input_message {
+    grid-area: message;
+    margin-top: 18px;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 175% */
+    color: #414042;
+    opacity: 0.5;
+}
+
+select {
+    width: 100%;
+    height: 100%;
+    padding: 0 29px 0 19px;
+    appearance: none;
+    background: url('../img/Shape.png') no-repeat right top;
+    background-position-x: calc(100% - 24px);
+    background-position-y: calc(100% - 29px);
+}
+
+.tasks__button {
+    max-width: 221px;
+    width: 100%;
+    height: 57px;
+    background: #1A1A1A;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.input_message.tusks__item textarea {
+    box-shadow: 0px 16px 32px rgb(202 203 210 / 25%);
+    border-radius: 8px;
+    padding: 18px 0 0 19px;
+}
