@@ -1,0 +1,35 @@
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        max-width: 670px !important;
+        align-items: center;
+    }
+
+    .tasks__form {
+        margin: 0 0 63px 0;
+    }
+}
+
+@media (max-width: 690px) {
+    .tasks .container {
+        margin-top: 77px;
+    }
+
+    .tasks__request {
+        grid-template-columns: repeat(1, 299px);
+        grid-template-rows: repeat(7, 64px) 338px;
+        grid-template-areas: "name name"
+                              "position position"
+                             "institution institution"
+                             "email email"
+                             "phone phone"
+                             "profession profession"
+                             "inquiry inquiry"
+                             "message message";
+    }
+
+    button.tasks__button {
+        max-width: 353px;
+        height: 51px;
+    }
+}

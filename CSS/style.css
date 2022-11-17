@@ -1,10 +1,15 @@
 @import url(reset.css);
 @import url(task__form.css);
 @import url(task__map.css);
+@import url(media.css);
+@import url(font.css);
 
 .container {
     display: flex;
+    max-width: 1180px;
+    width: 100%;
     margin: 138px auto;
+    padding: 0 21px;
 }
 
 .box-block {

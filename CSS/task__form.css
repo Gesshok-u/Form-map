@@ -97,11 +97,6 @@ button.dropdown__button {
     margin-bottom: -5px;
 }
 
-
-button.dropdown__button-active {
-    background-color: #1A1A1A;
-}
-
 .dropdown__list {
     display: none;
     background: #FFFFFF;
@@ -198,4 +193,24 @@ select {
     box-shadow: 0px 16px 32px rgb(202 203 210 / 25%);
     border-radius: 8px;
     padding: 18px 0 0 19px;
+}
+
+.input_message.tusks__item textarea:focus, .input_message.tusks__item textarea:active {
+    outline: none;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.46);
+}
+
+
+
+button.tasks__button:active, button.tasks__button:focus {
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.46);
+    background-color: rgb(45, 45, 45);
+}
+
+ul.dropdown__list {
+    box-shadow: 0px 5px 5px -1px rgba(0, 0, 0, 0.14);
+}
+
+button.dropdown__button:active, button.dropdown__button:focus {
+    box-shadow: 0px -2px 10px -1px rgba(0, 0, 0, 0.17);
 }
